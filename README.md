@@ -21,6 +21,7 @@ vagrant plugin install vagrant-vbguest
 mkdir GitHub;cd Github (or cd /to/where/you/want)
 git clone https://github.com/olin-electric-motorsports/OEM_box.git
 cd OEM_box/
+
 ```
 
 
