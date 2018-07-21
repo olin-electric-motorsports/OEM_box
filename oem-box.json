@@ -1,0 +1,13 @@
+{
+    "name": "oem-box",
+    "description": "This box contains Ubuntu 16.04 Desktop LTS 64-bit for Olin Electric Motorsports.",
+    "versions": [{
+        "version": "0.0.1",
+        "providers": [{
+                "name": "virtualbox",
+                "url": "file://localhost/home/josh/vagrant_boxes/oem-box_0.0.1.box",
+                "checksum_type": "sha1",
+                "checksum": "255c903bf4a9cb218fd59cf2cf8906977930fbc4"
+        }]
+    }]
+}
