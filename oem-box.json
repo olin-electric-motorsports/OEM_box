@@ -5,7 +5,7 @@
         "version": "0.0.1",
         "providers": [{
                 "name": "virtualbox",
-                "url": "file://localhost/home/josh/vagrant_boxes/oem-box_0.0.1.box",
+                "url": "file://localhost/home/path/to/your/oem-box_x.x.x.box",
                 "checksum_type": "sha1",
                 "checksum": "255c903bf4a9cb218fd59cf2cf8906977930fbc4"
         }]
