@@ -27,3 +27,4 @@ $
 ### Acknowledgement
 The VagrantBox built for this repository is developed based on the information provided in [Holger Woltersdorf's _Helpers_ repository](https://github.com/hollodotme/Helpers/blob/master/Tutorials/vagrant/self-hosted-vagrant-boxes-with-versioning.md).
 
+The development environment use [OpenOCD](https://sourceforge.net/p/openocd/code/ci/master/tree/) and [GDB](https://sourceforge.net/p/openocd/code/ci/master/tree/) for developing STM32 chips.
