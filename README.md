@@ -28,3 +28,7 @@ $
 The VagrantBox built for this repository is developed based on the information provided in [Holger Woltersdorf's _Helpers_ repository](https://github.com/hollodotme/Helpers/blob/master/Tutorials/vagrant/self-hosted-vagrant-boxes-with-versioning.md).
 
 The development environment use [OpenOCD](https://sourceforge.net/p/openocd/code/ci/master/tree/) and [GDB](https://gnu-mcu-eclipse.github.io/debug/install/) for developing STM32 chips.
+
+https://gnu-mcu-eclipse.github.io/toolchain/arm/install/#target-vs-host-platform
+https://www.npmjs.com/package/xpm
+https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions
