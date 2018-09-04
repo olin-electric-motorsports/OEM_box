@@ -29,6 +29,24 @@ The VagrantBox built for this repository is developed based on the information p
 
 The development environment use [OpenOCD](https://sourceforge.net/p/openocd/code/ci/master/tree/) and [GDB](https://gnu-mcu-eclipse.github.io/debug/install/) for developing STM32 chips.
 
-https://gnu-mcu-eclipse.github.io/toolchain/arm/install/#target-vs-host-platform
-https://www.npmjs.com/package/xpm
+### Installing tools on ubuntu locally
+```
+$ curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+$ sudo apt-get install -y nodejs
+```
+restart your terminal
+```
+$ sudo npm install --global xpm
+```
+again restart your terminal
+```
+$ xpm install --global @gnu-mcu-eclipse/arm-none-eabi-gcc
+$ xpm install --global @gnu-mcu-eclipse/openocd
+```
+Run the bash file in this repo to open up openocd and gdb.
+
+
 https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions
+https://www.npmjs.com/package/xpm
+https://gnu-mcu-eclipse.github.io/toolchain/arm/install/#target-vs-host-platform
+https://gnu-mcu-eclipse.github.io/openocd/install/
